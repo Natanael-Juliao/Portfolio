@@ -1,0 +1,220 @@
+/* CSS - Home */ 
+header{
+    height: 6em;
+    width: 99%;
+}
+
+.logo_programador{
+    height: 90px;
+    width: 90px;
+    margin-left: 43px;
+    margin-right: 10px;
+    margin-top: 0.14em;
+    padding-top: 0.1px;
+    padding-bottom: 0.1px;
+    background: white;
+    opacity: 45%;
+    border-radius: 180px;
+    position: absolute;
+}
+
+.cabecalho{
+    width: 500px;
+    height: 60px;
+    margin-top: 0.79em;
+    position: absolute;
+    margin-left: 835px;
+}
+
+body{
+    background: rgb(22, 19, 40);
+    width: 1488px;
+    height: 740px;
+}
+
+.img_nav{
+    width: 85px;
+    margin-top: 2.2px;
+    left: 53.7px;
+    top: 5px;
+    position: absolute;
+    opacity: 100%;
+}
+
+nav{
+    position: absolute;
+    top: 35px;
+    right: 90px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 5em 0 0;
+        
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto+Mono';
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav li a:hover{
+    color   : darkorange;
+	font-size: 21px;
+    transition: 1s;
+    margin-top: -0.15em;
+}
+
+section{
+    width: 99%;
+    height: 28em;
+}
+
+.caixa_secao{
+    position: absolute;
+    width: 96%;
+    left: 4.5em;
+    top: 11em;
+    height: 6em;
+}
+
+.caixa_secao2{
+    position: absolute;
+    width: 96%;
+    left: 7em;
+    top: 15em;
+    height: 6em;
+}
+
+.imagem_dev{
+    width: 18em;
+    margin-left: 45em;
+    margin-top: -42em;
+}
+
+section div h1{
+    color: red;
+    font-size: 46px;
+    font-family: "Ubuntu";
+
+}
+
+h3{
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-left: 2em;
+    margin-top: -1em;
+    font-family: 'Roboto+Mono';
+}
+
+.texto_secao2{
+    color: white;
+    font-size: 40px;
+}
+
+footer{
+    width: 99%;
+    height: 10em;
+}
+
+.midias{
+    position: absolute;
+    margin-top: 6em;
+    margin-left: 40em;
+    color: rgb(22, 19, 40);
+}
+
+footer p{
+    display: inline;    
+}
+
+footer li{
+    width: 3.8em;
+    background: #FFFFFF;
+    border-radius: 180px;
+}
+
+footer a{
+margin-left: 0.3em;
+}
+
+footer img{
+    margin-top: 0.15em;
+}
+
+.midias1{
+    position: absolute;
+    margin-top: 6em;
+    margin-left: 45em;
+    color: rgb(22, 19, 40);
+}
+
+/* CSS - Contato */
+
+main{
+    margin-top: 8em;
+    margin-left: 8em;
+    height: 15em;
+}
+
+.imagem_dev_contato{
+    width: 18em;
+    margin-left: 43.52em;
+    margin-top: -2.95em;
+    position: absolute;
+}
+
+form{
+    margin: -3em 0 0 0;
+}
+
+label{
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.input-padrao{
+    display: block;
+	padding: 0.1em;
+	width: 18em;
+    height: 1.6em;
+    border-radius: 9px;
+    margin: 0 0 2em -0.12em;
+}
+
+.input-mensagem{
+    display: block;
+	padding: 0.1em;
+	width: 18em;
+    height: 9.2em;
+    border-radius: 9px;
+    margin: 0 0 2em -0.12em;
+}
+
+.contato_espaço{
+    height: 8em;
+}
+
+.enviar {
+	width: 13.5em;
+	padding: 0.1em;
+    margin: 0 0 2em -0.12em;
+	background: #FFFFFF85;
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 18px;
+	transition: 1s all;
+	cursor: pointer;
+
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
