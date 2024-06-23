@@ -1,0 +1,144 @@
+/* CSS - Home*/
+
+body{
+    background: rgb(22, 19, 40);
+    width: 97%;
+    height: 44.5em;
+    background-image: url(img/image\ 1.png);
+    background-repeat: no-repeat;
+    background-position: 55.5em 16em;
+    background-size: 22%;
+}
+
+/* Menu Header*/
+
+header{
+    height: 8em;
+    width: 100%;
+}
+
+header nav{
+    height: 8em;
+    width: 100%;
+    display: flex;
+}
+
+.container-cabecalho{
+    width: 100%;
+    height: 5em;
+}
+
+header h1{
+    border-radius: 180px;
+    background: #454545;
+    width: 5em;
+    height: 5em;
+    margin: 4px 0 4px 4%;
+}
+
+#imagem-cabecalho{
+    margin: 0 1% 0 0;
+}
+
+.imagem-cabecalho{
+    width: 90%;
+    margin: 0 0 0 6px;
+}
+
+header ul{
+    width: 48%;
+    display: inline-flex;
+    margin: 1% 0 1% 30%;
+    height: 6em;
+}
+
+header ul li{
+    margin: 5% 0 5% 18%;
+    list-style-type: none;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+header ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto+Mono';
+    font-weight: bold;
+}
+
+header ul li a:hover {
+    color: white;
+    font-size: 24px;
+    transition: 1s;
+    font-weight: bold;
+    text-decoration: none;
+    color: orange;   
+}
+
+/* Section*/
+
+section{
+    width: 100%;
+    height: 28em;
+}
+
+section div{
+    display: block;
+}
+
+section h1{
+    font-size: 40px;    
+    color: red;
+    padding: 2em 0 0 1.5em ;
+    font-family: 'Ubuntu';
+    width: 90%;
+    height: 0.3em;
+}
+
+section h2{
+    font-size: 38px;    
+    color: white;
+    padding: 0 0 0 2.5em ;
+    font-family: 'Ubuntu';
+    width: 90%;
+    height: 0.5em;
+}
+
+section h3{
+    font-size: 16px;    
+    color: white;
+    padding: 0.2em 0 0 9em ;
+    font-family: 'Roboto+Mono';
+    width: 90%;
+    height: 0.4em;
+}
+
+/* Footer*/
+
+footer{
+    width: 100%;
+    height: 6.5em;
+}
+
+footer ul{
+    display: inline-flex;
+    width: 100%;
+}
+
+footer ul li{
+    list-style-type: none;
+    margin: 0 -22em 0 26em;    
+}
+
+footer ul li a{
+    margin: 0 1em 0 75%;
+}
+
+footer ul li a img{
+    width: 73%;
+    margin: 0 0 0 0;
+}
+
+#linkedin{
+    width: 55%;
+}
